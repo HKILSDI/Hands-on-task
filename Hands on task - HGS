@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bread2007 - Resource Detail</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f8f8; }
+    header { background:#c00; color: #fff; padding: 10px; }
+    header h1 { margin: 0; font-size: 20px; }
+    header small { display: block; font-size: 12px; }
 
+    .box { background: #fff; width: 80%; margin: 20px auto; padding: 15px; border: 1px solid #ccc; }
+    h3 { margin-top: 0; }
+
+    .tabs { border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+    .tabs span { display: inline-block; padding: 5px 10px; border: 1px solid #ccc; border-bottom: none; background: #eee; margin-right: 5px; }
+    .tabs .active { background: #fff; font-weight: bold; }
+
+    .info { background: #f3f3f3; padding: 10px; border: 1px solid #ccc; }
+    .info p { margin: 5px 0; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 5px; font-size: 14px; text-align: left; }
+
+    .history { margin-top: 15px; }
+    .history p { margin-bottom: 15px; }
+
+    .buttons { text-align: center; margin-top: 20px; }
+    .buttons button { padding: 5px 10px; margin: 0 3px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bread2007</h1>
+  <small>Talent evaluation system</small>
+</header>
+
+<div class="box">
+  <h3>Resource Detail - Balasubrahmanyam Upadhyayula</h3>
+
+  <div class="tabs">
+    <span class="active">Basic Details</span>
+    <span>Qualifications</span>
+    <span>Personal Details</span>
+    <span>Interviews</span>
+    <span>Audit</span>
+  </div>
+
+  <div class="info">
+    <p><b>Experience:</b> 5 years, 1 month</p>
+    <p><b>Career start:</b> June 2002</p>
+    <p><b>Applicable career start:</b> June 2002</p>
+    <p><b>Current Role:</b> Senior Software Engineer</p>
+    <p><b>Employed By:</b> Satyam Computer Services</p>
+    <p><b>Location:</b> Hyderabad</p>
+    <p><b>Status:</b> Selected</p>
+  </div>
+
+  <h4>Resumes</h4>
+  <table>
+    <tr>
+      <th>Filename</th>
+      <th>Uploaded By</th>
+      <th>Uploaded On</th>
+      <th>Actions</th>
+    </tr>
+    <tr>
+      <td><a href="#">Balasubrahmanyam.doc</a></td>
+      <td>Venketash Venkatakrishnan</td>
+      <td>02-07-2007 05:03 PM</td>
+      <td>🗑️</td>
+    </tr>
+  </table>
+
+  <p>Attach updated CV: <input type="file"> <button>Upload</button></p>
+
+  <div class="history">
+    <h4>History</h4>
+    <p><b>Selected</b><br>
+       Rajamani Saravanan, 02-07-2007 05:17 PM<br>
+       OK as a SSE. Answered design/OOAD questions also fairly well.</p>
+
+    <p><b>Shortlisted</b><br>
+       Rajamani Saravanan, 02-07-2007 05:04 PM<br>
+       OK, can talk to him. RS.</p>
+  </div>
+
+  <div class="buttons">
+    <button>&lt; Back</button>
+    <button>Workflow</button>
+    <button>Edit</button>
+    <button>Delete</button>
+  </div>
+</div>
+
+</body>
+</html>
